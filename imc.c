@@ -11,7 +11,7 @@
 int main(){
 	setlocale(LC_ALL,"PORTUGUESE");
 	float altura, peso,multiplicacao_altura,imc;
-	char nome[30],opcao,letra,saude;
+	char nome[30],opcao,letra;
 	
 	do {
 		altura = peso = multiplicacao_altura = imc = 0;
