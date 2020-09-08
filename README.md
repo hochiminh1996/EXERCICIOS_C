@@ -1,2 +1,2 @@
-# EXERCICIOS_C
- Exercicios_básicos
+CONTEÚDO BÁSICO DE C.
+
