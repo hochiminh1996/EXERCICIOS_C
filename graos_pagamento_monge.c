@@ -10,7 +10,7 @@
 
 int main(){
 	setlocale(LC_ALL,"PORTUGUESE");
-	float grao=0;
+	float grao=0;// FLOAT PORQUE O TIPO INT NÃO SUPORTARIA COMPORTAR OS VALORES DA VARIÁVEL GRAOS.
 
 	int quadro_tabuleiro=0;
 
