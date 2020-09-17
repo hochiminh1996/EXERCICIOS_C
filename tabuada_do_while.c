@@ -1,5 +1,5 @@
 //algoritmo básico : tabuada
-
+//LGA1
 #include <stdio.h>
 #include <stdlib.h>
 
