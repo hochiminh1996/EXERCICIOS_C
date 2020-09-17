@@ -1,5 +1,5 @@
 // ALGORITMO BÁSICO : TABUADA USANDO FOR
-
+// LGA1
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
