@@ -1,5 +1,4 @@
-// ALGORITMO B¡SICO : INTRODU«√O ¿ MATRIZ E VETORES
-
+// ALGORITMO B√ÅSICO : INTRODU√á√ÉO √Ä MATRIZ E VETORES
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
