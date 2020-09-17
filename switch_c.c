@@ -1,5 +1,5 @@
 // ALGORITMO BÁSICO : SINTAXE DO SWITCH EM C
-
+// LGA1
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
