@@ -1,4 +1,4 @@
-// ALGORITMO B√ÅSICO : LA√áO DE REPETI√á√ÉO FOR EM C
+// ALGORITMO B¡SICO : LA«O DE REPETI«√O FOR EM C
 
 #include <stdio.h>
 #include <stdlib.h>
