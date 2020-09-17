@@ -1,4 +1,5 @@
 // ALGORITMO BÁSICO : INTRODUÇÃO À MATRIZ E VETORES
+// 16/09/2020
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
