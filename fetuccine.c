@@ -1,4 +1,4 @@
-// ALGORITO : SEQUÊNCIA DE FETUCCINE 
+// ALGORITO : SEQUÃŠNCIA DE FETUCCINE
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
