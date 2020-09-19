@@ -14,9 +14,9 @@ main (){
     scanf("%d", &a2);
  
     printf("\n");
-    printf("1บ %d", a1);
+    printf("1ยบ %d", a1);
     printf("\n");
-    printf("2บ %d", a2);
+    printf("2ยบ %d", a2);
     printf("\n");
  
     for(i = 3; i <= 50; i++ )
