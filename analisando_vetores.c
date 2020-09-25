@@ -1,4 +1,4 @@
-//VETORES : EXERCICIO B¡SICO
+//VETORES : EXERCICIO B√ÅSICO
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -22,10 +22,10 @@ int main(){
 	printf("\n R E S U L T A D O \n\n");
 	
 	maior_valor = num[0]; //resetando. 
-	menor_valor = num[0]; //resetando. Sem isto n„o conseguimos obter o menor_valor
+	menor_valor = num[0]; //resetando. Sem isto n√£o conseguimos obter o menor_valor
 	
 
-	//CALCULA OS VALORES PARES/IMPARES. AL…M DISSO, OBT…M O MAIOR O MENOR VALOR DIGITADO E SOMA TODOS ELEMENTOS
+	//CALCULA OS VALORES PARES/IMPARES. AL√âM DISSO, OBT√âM O MAIOR O MENOR VALOR DIGITADO E SOMA TODOS ELEMENTOS
 	for(i=0;i<4;i++){
 		if(num[i]%2==0){
 			pares[i] = num[i];
@@ -75,14 +75,12 @@ int main(){
         for (j = i + 1; j < 4; j++) {
             if (num[i] == num[j]) {
                 cont++;
-            }else{
-            	
-			}
+            }
         }
     }	
 	
 	
-	printf("\nMÈdia : %.2f",soma/4);
+	printf("\nM√©dia : %.2f",soma/4);
 	printf("\nMaior Valor : %i [ %i ]",maior_valor,posicao);
 	printf("\nMenor Valor : %i [ %i ]",menor_valor,posicao_menor);
 	printf("\nValores iguais : %i ",cont);
