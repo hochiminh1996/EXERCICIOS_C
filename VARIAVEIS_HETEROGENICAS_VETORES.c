@@ -43,7 +43,7 @@ int main(){
 
 	}
 	
-	
+	//EXIBIÇÃO
 	for(i=0;i<2;i++){
 		printf("--------------------------------------\n");
 		printf("INDICE: %i \n",i);
