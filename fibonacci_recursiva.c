@@ -10,9 +10,9 @@
 
 
 int fib(int n){
-   if(n==1 || n==2)
+	if(n==1 || n==2)
 		return 1;
-   else{
+	else{
 		return fib(n-1) + fib(n-2);		
    }
 }
@@ -28,9 +28,6 @@ int main(){
 	
 	for(i=0; i<n; i++){
        printf("%i ", fib(i+1));
-       // 0 + 1 = 1
-       // retorno 1 
-       //
  	} 		
 
 }
