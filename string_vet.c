@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include <locale.h>
+#include <string.h>//STRLEN 
 int main()
 {
 	setlocale(LC_ALL,"PORTUGUESE");		
@@ -25,5 +26,6 @@ int main()
 	*/	
 		printf("LETRA [%i]: %c \n",i,nome[i]);
 	}
+	printf("QUANTIDADE DE CARACTERES : %i",strlen(nome));
 	  
 }
