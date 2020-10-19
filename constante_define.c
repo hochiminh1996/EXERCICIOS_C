@@ -13,9 +13,10 @@
 int main(){
 	setlocale(LC_ALL,"PORTUGUESE");
 	float prod;
+	const float frete = 10.50;
 	
 	printf("DIGITE O PREÇO DO PRODUTO : ");
 	scanf("%f",&prod);
 	
-	printf("\nPREÇO : %.2f\nIMPOSTO : %.2f\n\nPREÇO TOTAL : %.2f ",prod,prod*ICMS,prod*ICMS+prod);
+	printf("\nPREÇO : %.2f\nFRETE %.2f\nIMPOSTO : %.2f\n\nPREÇO TOTAL : %.2f ",prod,frete,prod*ICMS,prod*ICMS+prod+frete);
 }
