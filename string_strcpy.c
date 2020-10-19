@@ -11,7 +11,7 @@
 int main()
 {
 	setlocale(LC_ALL,"PORTUGUESE");		
-	char nome [30], nome2[30];
+	char nome [30], nome2[30] = "LUCAS";
 	int i;
 	
 	
@@ -22,7 +22,8 @@ int main()
 	30 TAMANHO DA STRNG
 	STDIN VALORES DE ENTRADA
 */
-	
+	printf("\nORIGINAL  (NOME2)  : %s \n",nome2);
+
 	strcpy(nome2,nome);// O VALOR FOI TRANSFERIDO PARA A VARIÁVEL NOME2
 /*
 	STRCPY É UMA FUNÇÃO QUE COPIA VALORES DE UMA STRING PARA OUTRA VARIÁVEL.
@@ -31,8 +32,8 @@ int main()
 	*DESTINO : ONDE SERÁ ARMAZENADO
 	*ORIGEM : A VARIÁVEL QUE SERÁ COPIADA
 */	
+	printf("MODIFICADO (NOME2) : %s\n",nome2);
 	
-	printf("NOME : %s ",nome2);
 	//'\0' TERMINADOR DE STRING
 	for(i=0;nome2[i]!='\0';i++){
 		printf("%c[%i]\t ",nome[i],i);
