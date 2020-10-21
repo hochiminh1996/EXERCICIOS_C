@@ -1,12 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <locale.h>
-
 /* 
 	ALGORITMO BÁSICO : VETORES
 	AUTOR : FELIPPE M
 	DESCRIÇÃO : ORDENAÇÃO DOS ELEMENTOS DE UM VETOR
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
 
 void ordenacao_vetor(int num){
 	int vetor[num],i,j,aux;
