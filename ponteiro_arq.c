@@ -2,6 +2,8 @@
 	ALGORITMO BÁSICO : PONTEIRO
 	AUTOR : FELIPPE M
 	DESCRIÇÃO : CRIAÇÃO, ESCRITA E LEITURA DE ARQUIVOS, USANDO OS CONCEITOS DE PONTEIRO.
+	
+	***ADICIONADO ZERAR REGISTROS DENTRO DE ARQUIVO.TXT
 */
 
 
@@ -89,8 +91,9 @@ int menu(){
 		header();
 		printf("[1] - LER ARQUIVO\n");
 		printf("[2] - REGISTRAR\n");
-		printf("[3] - LIMPAR\n");
-		printf("[4] - SAIR\n\n");
+		printf("[3] - LIMPAR TELA\n");
+		printf("[4] - LIMPAR ARQUIVO\n");
+		printf("[5] - SAIR\n\n");
 
 		printf("ESCOLHA UMA OPÇÃO VÁLIDA : ");
 		printf("\n---------------------------\n");
@@ -130,7 +133,19 @@ int menu(){
 				system("cls");
 				menu();		
 			break;
-			case 4 :
+			
+			case 4 : 
+				system("cls");
+				pont_arq = fopen("arquivo.txt","w");
+				fclose(pont_arq);
+
+				printf("O ARQUIVO FOI ZERADO...");
+				getche();
+				menu();
+				
+				
+			break;
+			case 5 :
 				exit(0);
 				
 			break;
@@ -138,7 +153,7 @@ int menu(){
 				system("cls");
 				menu();
 		}
-	}while(op!=4);
+	}while(op!=5);
 		
 }
 int main(){
@@ -152,6 +167,5 @@ int main(){
 	header();
 	registrar_em_arquivo();
 	menu();
-		
 			
 }
