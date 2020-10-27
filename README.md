@@ -1,7 +1,5 @@
 # LINGUAGEM C
 ## Primeiros passos com a Linguagem C
----
-
 Este repositório tem como principal objetivo armazenas os exercícios (básicos) solicitados nas aulas de C. Vale ressaltar que se trata de um conteúdo pouco elabora. 
 
 ---
