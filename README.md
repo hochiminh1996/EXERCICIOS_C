@@ -3,4 +3,11 @@
 Este repositório tem como principal objetivo armazenas os exercícios (básicos) solicitados nas aulas de C. Vale ressaltar que se trata de um conteúdo pouco elabora. 
 
 ---
+```
+#include <stdio.h>
+int main(){
+  printf("Olá, mundo!!!");
+}
+```
+
 ![programacao](https://github.com/hochiminh1996/EXERCICIOS_C/blob/master/dev_gif.gif)
