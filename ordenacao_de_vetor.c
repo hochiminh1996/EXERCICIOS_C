@@ -1,7 +1,8 @@
 /* 
-	ALGORITMO B¡SICO : VETORES
+	ALGORITMO B√ÅSICO : VETORES
 	AUTOR : FELIPPE M
-	DESCRI«√O : ORDENA«√O DOS ELEMENTOS DE UM VETOR
+	DESCRI√á√ÉO : ORDENA√á√ÉO DOS ELEMENTOS DE UM VETOR (BUBBLESORT)
+	EMPURRANDO OS MAIORES VALORES PARA "FRENTE".
 */
 
 #include <stdio.h>
@@ -10,28 +11,28 @@
 
 void ordenacao_vetor(int num){
 	int vetor[num],i,j,aux;
-	//O TAMANHO DO VETOR SER¡ DE ACORDO COM O VALOR PASSADO EM NUM
+	//O TAMANHO DO VETOR SER√Å DE ACORDO COM O VALOR PASSADO EM NUM
 	
 	//1 ) PREENCHIMENTO DOS VALORES
 	for(i=0;i<num;i++){
-		printf("ÕNDICE [%i] : ",i);
-		scanf("%i",&vetor[i]);//OS ELEMENTOS SER√O ATRIBUIDOS A CADA ÕNDICE [O-NUM]
+		printf("√çNDICE [%i] : ",i);
+		scanf("%i",&vetor[i]);//OS ELEMENTOS SER√ÉO ATRIBUIDOS A CADA √çNDICE [O-NUM]
 	}	
 	
 	//2 ) PROCESSAMENTO 
-	for(i=0;i<num;i++){//LA«O QUE PERCORRE OS ELEMENTOS DO VETOR
+	for(i=0;i<num;i++){//LA√áO QUE PERCORRE OS ELEMENTOS DO VETOR
 		for(j=i+1;j<num;j++){
 		/*
-			IR¡ VARRER TODOS ELEMENTOS DE 1 AT… NUM 
+			IR√Å VARRER TODOS ELEMENTOS DE 1 AT√â NUM 
 		*/	
 			if(vetor[i]>vetor[j]){//SE O PRIMEIRO VALOR VETOR[I] FOR MAIOR QUE O SEGUNDO VETOR[J]
-				aux = vetor[i];//O MAIOR VALOR, DENTRO DE VETOR[I], … ATRIBUIDO A UMA VARI¡VEL AUXILIAR.
-				vetor[i] = vetor[j];//O MAIOR VALOR [I] IR¡ RECEBER O MENOR VALOR [J]
-				vetor[j] = aux;//O VETOR QUE TINHA O MENOR VALOR IR¡ RECEBER O CONTE⁄DO A MAIOR POSI«√O
+				aux = vetor[i];//O MAIOR VALOR, DENTRO DE VETOR[I], √â ATRIBUIDO A UMA VARI√ÅVEL AUXILIAR.
+				vetor[i] = vetor[j];//O MAIOR VALOR [I] IR√Å RECEBER O MENOR VALOR [J]
+				vetor[j] = aux;//O VETOR QUE TINHA O MENOR VALOR IR√Å RECEBER O CONTE√öDO A MAIOR POSI√á√ÉO
 				/*
 					CRIANDO ASSIM UMA ORDEM DE VALORES. EX : 10,6,5,1
-					10 > 6. O CONTE⁄DO DE VETOR[0](10) SER¡ TRANSFERIDO PARA AUX=10.
-						VETOR[0] IR¡ RECEBER O MENOR VALOR (6) E VETOR[1] O CONTE⁄DO DE AUX.
+					10 > 6. O CONTE√öDO DE VETOR[0](10) SER√Å TRANSFERIDO PARA AUX=10.
+						VETOR[0] IR√Å RECEBER O MENOR VALOR (6) E VETOR[1] O CONTE√öDO DE AUX.
 						6 10...			
 				*/
 			}
@@ -39,7 +40,7 @@ void ordenacao_vetor(int num){
 		}
 	}
 	
-	//3 ) SAÕDA
+	//3 ) SA√çDA
 	printf("\n");
 	for(i=0;i<num;i++){
 		printf("%i ",vetor[i]);
@@ -52,12 +53,12 @@ int main(){
 	int n;
 	
 	printf("**************************************\n");
-	printf("\tORDENA«√O DE VETORES\n");
+	printf("\tORDENA√á√ÉO DE VETORES\n");
 	printf("**************************************\n\n");
 	
-	printf("QUAL … O TAMANHO DO VETOR : ");
-	scanf("%i",&n);//O USU¡RIO ENTRA COM O TAMANHO DO VETOR
+	printf("QUAL √â O TAMANHO DO VETOR : ");
+	scanf("%i",&n);//O USU√ÅRIO ENTRA COM O TAMANHO DO VETOR
 	
-	ordenacao_vetor(n);//PASSAGEM DO VALOR POR PAR¬METRO
+	ordenacao_vetor(n);//PASSAGEM DO VALOR POR PAR√ÇMETRO
 	
 }
